@@ -1,0 +1,116 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-transform: none;
+}
+.margin{
+    max-width: 950px;
+    margin:0px auto;
+}
+
+.half{
+    width:45%;
+}
+
+.third{
+    width:30%;
+}
+
+/* navbar */
+
+Nav{
+    height:50px;
+    border:1px solid green;
+   
+}
+
+Nav *{
+    border:1px solid salmon;
+
+}
+
+#navContent{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#navLinkContainer{
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    margin:0px;
+}
+
+.navLink{
+    margin-right: 20px;
+    text-transform: none;
+    padding:10px 5px;
+}
+
+.navLink:hover{
+    background-color:blue;
+}
+
+#navLogo{
+    height:50px;
+}
+
+/* content */
+
+/* intro */
+#intro{
+    position: absolute;
+    top: 35vh;
+    left: 15vw;
+
+    
+  }
+
+#hero{
+  
+    position: relative;
+
+}
+
+  /* mission */
+#mission{
+    bottom:150px;
+    left: 15vw;
+    position: absolute;
+    color:lightyellow;
+  } 
+
+/* block */
+.block{
+    padding:100px 0px;
+}
+.bg-grey{
+    background-color: #F3F7FB;
+}
+.textContent{
+    width:60%;
+    margin-bottom: 20px;
+}
+/* Cards */
+.card{
+    width:30%;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.cardText{
+    padding:30px;
+}
+.cards{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;;
+}
+ 
+/* Values */
+
+/* Header */
+
+/* Footer */
